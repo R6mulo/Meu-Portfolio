@@ -6,11 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
-
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="abaut.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível<strong 
@@ -22,17 +27,25 @@
             colocarem em prática boas ideias. Vamos
             conversar?</p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://instagram.com/r6mulochaves">Instagram</a>
-                <a class="apresentacao__links__link" href="https://github.com/R6mulo">GitHub</a>
+                <H2 class="apresentacao__links__subtitulo">Acesse minhas redes:</H2>
+                <a class="apresentacao__links__link" href="https://github.com/R6mulo">
+                    <img src="./assets/github.png">    
+                    GitHub
+                </a>
+                <a class="apresentacao__links__link" href="https://linkedin.com/in/romulo-chaves">
+                    <img src="./assets/linkedin.png">     
+                    LinkedIn
+                </a>
+                <a class="apresentacao__links__link" href="https://twitch.tv/r6mulororschach">
+                    <img src="./assets/twitch.png">     
+                    Twitch
+                </a>
             </div>
         </section>
-        <style>img {
-                width: 488px; /* Define a largura para 488 pixels */
-                height: 550px; /* Mantém a proporção da altura */
-            }   
-        </style>
-        <img src="imagem.png" alt="Foto Programando">
+        <img src="./assets/Image.png" alt="Foto Programando">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Romulo Rørschach.</p>
+    </footer>
 </body>
 </html>
